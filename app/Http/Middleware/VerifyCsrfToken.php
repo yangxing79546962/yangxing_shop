@@ -21,4 +21,9 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         //
     ];
+
+    public function index()
+    {
+        
+    }
 }
